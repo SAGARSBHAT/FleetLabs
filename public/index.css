@@ -1,0 +1,83 @@
+
+
+.hr{
+ align-content: initial;
+background: #247AB4;
+width: 100px;
+
+}
+.ben {
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 20px;
+  color: #247AB4;
+;
+}
+.btn1 {
+  background: #655dc6;
+  border: 2px solid #655dc6;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: white;
+}
+.ttxt {
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.med{
+    background-color:white;
+    padding: 30px;
+    margin: 30px
+
+}
+.med1{
+    font-family: Droid Sans;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+}
+.sb{
+    font-family: Droid Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+float: left;
+margin: 10px;
+color: rgba(0, 0, 0, 0.5);
+
+}
+.sb1{
+    color: black;
+}
+.sb2{
+    font-family: Droid Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: rgba(0, 0, 0, 0.5);
+float: right;
+margin: 10px;
+}
+.sb3{
+    font-size: 100px;
+}
+.ab2{
+   font-family: Droid Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+color: black;
+float: right;
+margin: 10px; 
+}
