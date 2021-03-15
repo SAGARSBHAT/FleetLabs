@@ -4,7 +4,7 @@ const c = require('cors')
 const b = require('body-parser')
 const a = x()
 const MongoClient = y.MongoClient
-const mongourl = 'mongodb+srv://sagar:sagar@14@cluster0.upgy9.mongodb.net/fleetlabintenship?retryWrites=true&w=majority'
+const mongourl = 'mongodb://localhost:27017'
 let db;
 const p = 8900
 
@@ -73,7 +73,7 @@ a.delete('/deletetransport/:id', (req, res) => {
 MongoClient.connect(mongourl, (err, client) =>
 {
     if (err) throw err
-    db = client.db('fleetlabinternship')
+    db = client.db('fleetlabsinternship')
     a.listen(p, (err) =>
     {
         if (err) throw err
